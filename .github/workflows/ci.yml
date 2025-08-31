@@ -22,5 +22,3 @@ jobs:
 
       - name: Run pytest
         run: pytest -q
-=======
->>>>>>> 83ff3ef68f78a6ca30d70eb7d7da82a5cbb6df45
