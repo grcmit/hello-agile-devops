@@ -1,5 +1,5 @@
 const { greet } = require('../greet');
 test('returns expected greeting', () => {
-    expect(greet('Team')).toBe('Hello, Team! Welcome to Agile DevOps.');
+    expect(greet('GRC')).toBe('Hello, GRC! Welcome to Agile DevOps.');
 });
 
