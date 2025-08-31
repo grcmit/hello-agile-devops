@@ -3,22 +3,6 @@ name: CI Pipeline
 on:
   push:
     branches: [ "main" ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Run Hello World
-        run: echo "Build Successful! CI Pipeline is working."
-<<<<<<< HEAD
-name: CI Pipeline
-
-on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
