@@ -2,13 +2,12 @@ name: CI Pipeline
 
 on:
   push:
-  branches: [ "main" ]
+    branches: [ "main" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
       - name: Run Hello World
-          run: echo "✅ Build successful! CI Pipeline is working."
-
+        run: echo "✅ Build successful! CI Pipeline is working."
